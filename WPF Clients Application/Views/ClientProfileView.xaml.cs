@@ -42,12 +42,5 @@ namespace WPF_Clients_Application.Views {
             Application.Current.MainWindow = newClientView;
             newClientView.ShowDialog();
         }
-
-        private void ImageAwesome_MouseLeftButtonDown(object sender, MouseButtonEventArgs e) {
-            Application.Current.MainWindow.Hide();
-            NewOrderView newOrderView = new(Client!);
-            Application.Current.MainWindow = newOrderView;
-            newOrderView.ShowDialog();
-        }
     }
 }

@@ -32,7 +32,6 @@
                     <TextBlock FontSize="17" FontWeight="Bold" Text="{Binding SelectedClient.Surname}" Foreground="#01133D"/>
                     <fa:ImageAwesome Icon="Pencil" HorizontalAlignment="Right" Margin="165 0 12 0" Width="15" Height="18" MouseLeftButtonDown="ClientEdit_Clicked"/>
                 </StackPanel>
-
                 <StackPanel Margin="12 13 12 0" Orientation="Horizontal">
                     <fa:ImageAwesome Icon="Building" Width="15" Height="18"/>
                     <TextBlock FontSize="15" Margin="9 0 0 0" Text="{Binding SelectedClient.Company}" Foreground="#01133D"/>
@@ -54,8 +53,12 @@
                                 <StackPanel>
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock Margin="9 9 0 0" FontSize="17" FontWeight="Bold" Text="{Binding Name}"/>
-                                        <fa:ImageAwesome Margin="93 0 0 0" Icon="Pencil" Width="15" Height="18" MouseLeftButtonDown="ImageAwesome_MouseLeftButtonDown"/>
-                                        <Border Margin="8 0 0 0" Height="8" Width="8" CornerRadius="8" Background="{Binding status}"/>
+                                            <fa:ImageAwesome Margin="93 0 0 0" Icon="Pencil" Width="15" Height="18">
+                                                <fa:ImageAwesome.InputBindings>
+                                                <MouseBinding MouseAction="LeftClick" CommandParameter="{Binding}" Command="{Binding DataContext.NewOrderEditCommand, RelativeSource={RelativeSource AncestorType={x:Type ListView}}}"/>
+                                                </fa:ImageAwesome.InputBindings>
+                                            </fa:ImageAwesome>
+                                            <Border Margin="8 0 0 0" Height="8" Width="8" CornerRadius="8" Background="{Binding status}"/>
                                     </StackPanel>
                                     <StackPanel Margin="9 14 0 0" Orientation="Horizontal">
                                         <TextBlock FontSize="15" Text="Order quantity:"/>
