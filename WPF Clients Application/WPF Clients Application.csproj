@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>WPF_Clients_Application</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="StaticFiles\Fonts\SulphurPoint-Bold.ttf" />
+    <None Remove="StaticFiles\Fonts\SulphurPoint-Light.ttf" />
+    <None Remove="StaticFiles\Fonts\SulphurPoint-Regular.ttf" />
+    <None Remove="StaticFiles\Images\Logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome" Version="4.7.0" />
+    <PackageReference Include="FontAwesome.WPF" Version="4.7.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="StaticFiles\Fonts\SulphurPoint-Bold.ttf" />
+    <Resource Include="StaticFiles\Fonts\SulphurPoint-Light.ttf" />
+    <Resource Include="StaticFiles\Fonts\SulphurPoint-Regular.ttf" />
+    <Resource Include="StaticFiles\Images\Logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="StaticFiles\Clients\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,73 @@
+﻿<Window x:Class="WPF_Clients_Application.Views.AllClientsView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Clients_Application.Views"
+        mc:Ignorable="d"
+        Title="Clients" Height="720" Width="365" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#F4F8FB" Closed="Window_Closed">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="83*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.Column="0" Source="{StaticResource clientsLogo}" MaxWidth="51" HorizontalAlignment="Left" Margin="10"/>
+            <TextBlock Grid.Column="1" FontSize="17" Text="home" HorizontalAlignment="Right" Margin="10" Foreground="#01133D" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <ListView Name="ClientsView" ScrollViewer.HorizontalScrollBarVisibility="Hidden" Background="Transparent" Margin="0 20 0 20" BorderBrush="Transparent" ItemsSource="{Binding Clients}">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Background="White" Margin="12 6 12 6" Width="312" Height="112">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="3*"/>
+                                <ColumnDefinition Width="2*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <StackPanel Grid.Column="0">
+                                <StackPanel Orientation="Horizontal" Margin="10 5 0 0">
+                                    <TextBlock Foreground="#01133D" FontWeight="Bold" FontSize="17" Text="{Binding Name}"/>
+                                    <TextBlock Foreground="#01133D" FontWeight="Bold" FontSize="17" Text=" "/>
+                                    <TextBlock Foreground="#01133D" FontSize="17" FontWeight="Bold" Text="{Binding Surname}"/>
+                                </StackPanel>
+                                <TextBlock Foreground="#01133D" FontSize="15" Margin="10 5 0 0" Text="{Binding Company}"/>
+                                <TextBlock Foreground="#01133D" FontSize="15" Margin="10 5 0 0" Text="{Binding PhoneNumber}"/>
+                                <TextBlock Foreground="#01133D" FontSize="15" Margin="10 5 0 0" Text="{Binding Order}"/>
+                            </StackPanel>
+
+                            <StackPanel Grid.Column="1">
+                                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top">
+                                    <Border CornerRadius="13" Height="13" Width="13" Background="#3476E4" Margin="0 5 5 0">
+                                        <TextBlock Text="2" Foreground="White" Width="5.52" FontSize="11.52"/>
+                                    </Border>
+                                </StackPanel>
+                                <Button Content="more" Width="102" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 53 9 12" CommandParameter="{Binding Id}" Command="{Binding DataContext.MoreCommand, RelativeSource={RelativeSource AncestorType={x:Type ListView}}}"/>
+                            </StackPanel>
+
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+            <Button Margin="280 530 12 47" Width="54" Height="58" Command="{Binding NewClientCommand}">
+                <Button.Content>
+                    <StackPanel>
+                        <TextBlock FontSize="17" HorizontalAlignment="Center" Text="+"/>
+                        <TextBlock FontSize="17" Text="new"/>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
+            <TextBlock VerticalAlignment="Bottom" Text="Proudly created by Hesen Abdullazade in 2023." Foreground="#CBD2DB" HorizontalAlignment="Center"/>
+        </Grid>
+
+    </Grid>
+</Window>

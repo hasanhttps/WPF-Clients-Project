@@ -1,0 +1,93 @@
+﻿<Window x:Class="WPF_Clients_Application.Views.ClientProfileView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        xmlns:local="clr-namespace:WPF_Clients_Application.Views"
+        mc:Ignorable="d"
+        Title="Clients" Height="720" Width="365" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#F4F8FB" Closed="Window_Closed">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="83*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="White">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Image Grid.Column="0" Source="{StaticResource clientsLogo}" MaxWidth="51" HorizontalAlignment="Left" Margin="10"/>
+            <TextBlock Grid.Column="1" FontSize="17" Text="home" HorizontalAlignment="Right" Margin="10" Foreground="#01133D" MouseLeftButtonDown="TextBlock_GotFocus"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <StackPanel>
+
+                <StackPanel Margin="12 20 12 0" Orientation="Horizontal">
+                    <TextBlock FontSize="17" FontWeight="Bold" Text="{Binding SelectedClient.Name}" Foreground="#01133D"/>
+                    <TextBlock FontSize="17" FontWeight="Bold" Text=" " Foreground="#01133D"/>
+                    <TextBlock FontSize="17" FontWeight="Bold" Text="{Binding SelectedClient.Surname}" Foreground="#01133D"/>
+                    <fa:ImageAwesome Icon="Pencil" HorizontalAlignment="Right" Margin="165 0 12 0" Width="15" Height="18" MouseLeftButtonDown="ClientEdit_Clicked"/>
+                </StackPanel>
+
+                <StackPanel Margin="12 13 12 0" Orientation="Horizontal">
+                    <fa:ImageAwesome Icon="Building" Width="15" Height="18"/>
+                    <TextBlock FontSize="15" Margin="9 0 0 0" Text="{Binding SelectedClient.Company}" Foreground="#01133D"/>
+                    <fa:ImageAwesome Margin="85 0 0 0" Icon="Phone" Width="15" Height="18"/>
+                    <TextBlock FontSize="15" Margin="6 0 0 0" Text="{Binding SelectedClient.PhoneNumber}" Foreground="#01133D"/>
+                </StackPanel>
+
+                <StackPanel Margin="12 18 0 0" Orientation="Horizontal">
+                    <TextBlock FontSize="15" Text="Came from:" Foreground="#01133D"/>
+                    <fa:ImageAwesome Margin="9 0 0 0" Icon="{Binding SelectedClient.Place}" Width="15" Height="18"/>
+                    <TextBlock FontSize="15" Margin="45 0 0 0" Text="Registered:"/>
+                    <TextBlock FontSize="15" Margin="6 0" Text="{Binding SelectedClient.RegisterDate}" Foreground="#01133D"/>
+                </StackPanel>
+
+                <ListView Name="OrdersView" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Hidden" Background="Transparent" Height="500" Margin="0 14 0 20" BorderBrush="Transparent" ItemsSource="{Binding SelectedClient.Orders}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <Border Background="White" Margin="10 7.5 10 7.5" Width="318" Height="115" CornerRadius="3">
+                                <StackPanel>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Margin="9 9 0 0" FontSize="17" FontWeight="Bold" Text="{Binding Name}"/>
+                                        <fa:ImageAwesome Margin="93 0 0 0" Icon="Pencil" Width="15" Height="18" MouseLeftButtonDown="ImageAwesome_MouseLeftButtonDown"/>
+                                        <Border Margin="8 0 0 0" Height="8" Width="8" CornerRadius="8" Background="{Binding status}"/>
+                                    </StackPanel>
+                                    <StackPanel Margin="9 14 0 0" Orientation="Horizontal">
+                                        <TextBlock FontSize="15" Text="Order quantity:"/>
+                                        <TextBlock FontSize="15" Margin="3 0 3 0" Text="{Binding OrderQuantity}"/>
+                                        <TextBlock FontSize="15" Text="pcs"/>
+                                    </StackPanel>
+
+                                    <StackPanel Margin="9 5 0 0" Orientation="Horizontal">
+                                        <TextBlock FontSize="15" Text="Delivery day:"/>
+                                        <TextBlock FontSize="15" Margin="3 0" Text="{Binding DeliveryDay}"/>
+                                    </StackPanel>
+
+                                    <StackPanel Margin="9 5 0 0" Orientation="Horizontal">
+                                        <TextBlock FontSize="15" Text="Order day:"/>
+                                        <TextBlock FontSize="15" Margin="3 0" Text="{Binding OrderDay}"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+            
+            <Button Margin="280 530 12 47" Width="54" Height="58" Command="{Binding NewOrderCommand}">
+                <Button.Content>
+                    <StackPanel>
+                        <TextBlock FontSize="17" HorizontalAlignment="Center" Text="+"/>
+                        <TextBlock FontSize="17" Text="new"/>
+                    </StackPanel>
+                </Button.Content>
+            </Button>
+            <TextBlock Text="Proudly created by Hasan Abdullazade in 2023." VerticalAlignment="Bottom" HorizontalAlignment="Center" Foreground="#CBD2DB"/>
+        </Grid>
+    </Grid>
+</Window>

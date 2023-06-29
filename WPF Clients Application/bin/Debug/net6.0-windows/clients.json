@@ -1,0 +1,283 @@
+[
+  {
+    "Name": "Yuni",
+    "Surname": "Memmedov",
+    "PhoneNumber": "050-335-65-02",
+    "Id": "fd7d5e07-88f6-4dcc-9c79-772394b57289",
+    "Orders": [
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": true,
+        "status": "#07DA42"
+      }
+    ],
+    "RegisterDate": "1.01.0001",
+    "Day": null,
+    "Month": null,
+    "Year": null,
+    "Place": "instagram",
+    "Company": "Indigo",
+    "Order": "5 dene ketan"
+  },
+  {
+    "Name": "Yunis",
+    "Surname": "Memmedov",
+    "PhoneNumber": "050-335-65-02",
+    "Id": "0f8add13-8976-4efd-9e4e-f408dce75fe9",
+    "Orders": [
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": true,
+        "status": "#07DA42"
+      },
+      {
+        "Name": null,
+        "DeliveryDay": "..",
+        "OrderDay": "..",
+        "OrderQuantity": 0,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      }
+    ],
+    "RegisterDate": "1.01.0001",
+    "Day": null,
+    "Month": null,
+    "Year": null,
+    "Place": "instagram",
+    "Company": "Indigo",
+    "Order": "5 dene ketan"
+  },
+  {
+    "Name": "Ibrahim",
+    "Surname": "Asadov",
+    "PhoneNumber": "055-435-25-42",
+    "Id": "5c896f5a-d119-4b3d-9334-77f2b59bfce5",
+    "Orders": [
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": true,
+        "status": "#07DA42"
+      }
+    ],
+    "RegisterDate": "1.01.0001",
+    "Day": null,
+    "Month": null,
+    "Year": null,
+    "Place": "instagram",
+    "Company": "Indigo",
+    "Order": "3 dene ketan"
+  },
+  {
+    "Name": "Ibrahim",
+    "Surname": "Asadov",
+    "PhoneNumber": "055-435-25-42",
+    "Id": "ff7e5b74-26f0-40ff-9439-7efbb00f769d",
+    "Orders": [
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": true,
+        "status": "#07DA42"
+      }
+    ],
+    "RegisterDate": "1.01.0001",
+    "Day": null,
+    "Month": null,
+    "Year": null,
+    "Place": "instagram",
+    "Company": "Indigo",
+    "Order": "7 dene ketan"
+  },
+  {
+    "Name": "Ibrahim",
+    "Surname": "Asadov",
+    "PhoneNumber": "055-435-25-42",
+    "Id": "1c0fb1f1-3ca0-43b6-afd5-ced94c536601",
+    "Orders": [
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": true,
+        "status": "#07DA42"
+      }
+    ],
+    "RegisterDate": "1.01.0001",
+    "Day": null,
+    "Month": null,
+    "Year": null,
+    "Place": "instagram",
+    "Company": "Indigo",
+    "Order": "2 dene ketan"
+  },
+  {
+    "Name": "Ibrahim",
+    "Surname": "Asadov",
+    "PhoneNumber": "055-435-25-42",
+    "Id": "cf147a78-24f5-4b5b-b8fc-13cf7cfcf0ce",
+    "Orders": [
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": true,
+        "status": "#07DA42"
+      }
+    ],
+    "RegisterDate": "1.01.0001",
+    "Day": null,
+    "Month": null,
+    "Year": null,
+    "Place": "instagram",
+    "Company": "Indigo",
+    "Order": "3 dene ketan"
+  },
+  {
+    "Name": "Huseyn",
+    "Surname": "Abdullazade",
+    "PhoneNumber": "050-335-65-78",
+    "Id": "b22d433a-6f2a-4d5d-809c-27fcf61a3c41",
+    "Orders": [
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": false,
+        "status": "#EE0F0F"
+      },
+      {
+        "Name": "Display Akril (2.5mm) A5",
+        "DeliveryDay": "30.11.21",
+        "OrderDay": "21.11.21",
+        "OrderQuantity": 500,
+        "isDelivered": true,
+        "status": "#07DA42"
+      }
+    ],
+    "RegisterDate": "30.06.2023",
+    "Day": null,
+    "Month": null,
+    "Year": null,
+    "Place": "youtube",
+    "Company": "Microsoft",
+    "Order": "Salam"
+  }
+]

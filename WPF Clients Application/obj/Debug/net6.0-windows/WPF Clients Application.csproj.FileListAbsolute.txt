@@ -1,0 +1,38 @@
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\bin\Debug\net6.0-windows\WPF Clients Application.exe
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\bin\Debug\net6.0-windows\WPF Clients Application.deps.json
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\bin\Debug\net6.0-windows\WPF Clients Application.runtimeconfig.json
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\bin\Debug\net6.0-windows\WPF Clients Application.dll
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\bin\Debug\net6.0-windows\WPF Clients Application.pdb
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\WPF Clients Application.csproj.AssemblyReference.cache
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\WPF Clients Application_MarkupCompile.cache
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\WPF Clients Application_MarkupCompile.lref
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\WPF Clients Application.g.resources
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\WPF Clients Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\WPF Clients Application.AssemblyInfoInputs.cache
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\WPF Clients Application.AssemblyInfo.cs
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\WPF Clients Application.csproj.CoreCompileInputs.cache
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\WPF Clients Application.dll
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\refint\WPF Clients Application.dll
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\WPF Clients Application.pdb
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\WPF Clients Application.genruntimeconfig.cache
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\ref\WPF Clients Application.dll
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\ResourceDictionaries\MainCustomButtonsRD.baml
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\App.baml
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\ResourceDictionaries\ImagesRD.baml
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\ResourceDictionaries\FontsRD.baml
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\ResourceDictionaries\CustomTextBoxesRD.baml
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\Views\HomeView.g.cs
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\Views\LoginView.g.cs
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\Views\HomeView.baml
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\Views\LoginView.baml
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\Views\NewClientView.g.cs
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\Views\NewClientView.baml
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\Views\NewOrderView.g.cs
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\Views\NewOrderView.baml
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\Views\AllClientsView.g.cs
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\Views\AllClientsView.baml
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\Views\ClientProfileView.g.cs
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\Views\ClientProfileView.baml
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\bin\Debug\net6.0-windows\FontAwesome.WPF.dll
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\WPF Clients Application.csproj.CopyComplete

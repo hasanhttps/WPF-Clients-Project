@@ -1,0 +1,20 @@
+﻿WPF Clients Application
+
+
+winexe
+C#
+.cs
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\obj\Debug\net6.0-windows\
+WPF_Clients_Application
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\App.xaml
+10276736434
+
+20-1266221046
+195-953605026
+ResourceDictionaries\CustomTextBoxesRD.xaml;ResourceDictionaries\FontsRD.xaml;ResourceDictionaries\ImagesRD.xaml;ResourceDictionaries\MainCustomButtonsRD.xaml;Views\AllClientsView.xaml;Views\ClientProfileView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\NewClientView.xaml;Views\NewOrderView.xaml;
+
+False
+

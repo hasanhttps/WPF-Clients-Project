@@ -1,0 +1,20 @@
+﻿<Window x:Class="WPF_Clients_Application.Views.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Clients_Application.Views"
+        mc:Ignorable="d"
+        x:Name ="loginPanel" Title="Clients" Height="720" Width="365" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#F4F8FB">
+    <Grid>
+        <StackPanel>
+            <Image Source="{StaticResource clientsLogo}" MaxWidth="115" Margin="115 52 115 0"/>
+            <TextBlock HorizontalAlignment="Center" Text="username" FontWeight="Bold" FontSize="15.6" Margin="0 105 0 0"/>
+            <TextBox Width="339" Margin="12 19 12 0" Tag="enter your username" HorizontalAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Center" Text="password" FontWeight="Bold" FontSize="15.6" Margin="0 24 0 0"/>
+            <TextBox Width="339" Margin="12 19 12 0" Tag="enter your password" HorizontalAlignment="Center"/>
+            <Button Height="58" Width="320" Margin="0 180 0 0" Content="log in" FontSize="17" Command="{Binding LoginCommand}"/>
+            <TextBlock Text="Proudly created by Hesen Abdullazade in 2023." HorizontalAlignment="Center" Margin="20" Foreground="#CBD2DB"/>
+        </StackPanel>
+    </Grid>
+</Window>

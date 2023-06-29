@@ -1,0 +1,23 @@
+﻿<Window x:Class="WPF_Clients_Application.Views.HomeView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Clients_Application.Views"
+        mc:Ignorable="d"
+        Title="Clients" Height="720" Width="365" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#F4F8FB" Closed="Window_Closed">
+    <Grid>
+        <Border VerticalAlignment="Top" Height="200">
+            <StackPanel>
+                <Viewbox>
+                    <Image MaxWidth="40" Margin="28 5 28 0" Source="{StaticResource clientsLogo}" Width="40"/>
+                </Viewbox>
+                <TextBlock Text="Welcome Hesen!" Foreground="#3476E4" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+
+        <Button Width="315" Height="172" Content="create new client" FontSize="25" Margin="15 155 15 327" Command="{Binding CreateNewClientCommand}"/>
+        <Button Width="315" Height="172" Content="all clients" FontSize="25" Margin="15 235 15 0" Command="{Binding AllClientsCommand}"/>
+        <TextBlock VerticalAlignment="Bottom" Text="Proudly created by Hesen Abdullazade in 2023." Foreground="#CBD2DB" HorizontalAlignment="Center"/>
+    </Grid>
+</Window>
