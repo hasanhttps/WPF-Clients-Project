@@ -18,7 +18,7 @@ namespace WPF_Clients_Application.Views {
     public partial class LoginView : Window {
         public LoginView() {
             InitializeComponent();
-            DataContext = new LoginViewModel();
+            DataContext = new LoginViewModel(ref usernametb, ref passwordtb);
         }
     }
 }

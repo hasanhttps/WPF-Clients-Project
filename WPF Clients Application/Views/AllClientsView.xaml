@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
         xmlns:local="clr-namespace:WPF_Clients_Application.Views"
         mc:Ignorable="d"
         Title="Clients" Height="720" Width="365" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Background="#F4F8FB" Closed="Window_Closed">
@@ -49,6 +50,7 @@
                                     <Border CornerRadius="13" Height="13" Width="13" Background="#3476E4" Margin="0 5 5 0">
                                         <TextBlock Text="2" Foreground="White" Width="5.52" FontSize="11.52"/>
                                     </Border>
+                                    <fa:ImageAwesome Icon="{Binding Place}" Margin="0 5 5 0" Width="12"/>
                                 </StackPanel>
                                 <Button Content="more" Width="102" Height="30" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0 53 9 12" CommandParameter="{Binding Id}" Command="{Binding DataContext.MoreCommand, RelativeSource={RelativeSource AncestorType={x:Type ListView}}}"/>
                             </StackPanel>

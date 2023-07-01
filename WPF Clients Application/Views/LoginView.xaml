@@ -10,9 +10,9 @@
         <StackPanel>
             <Image Source="{StaticResource clientsLogo}" MaxWidth="115" Margin="115 52 115 0"/>
             <TextBlock HorizontalAlignment="Center" Text="username" FontWeight="Bold" FontSize="15.6" Margin="0 105 0 0"/>
-            <TextBox Width="339" Margin="12 19 12 0" Tag="enter your username" HorizontalAlignment="Center"/>
+            <TextBox Name="usernametb" Width="339" Margin="12 19 12 0" Tag="enter your username" HorizontalAlignment="Center"/>
             <TextBlock HorizontalAlignment="Center" Text="password" FontWeight="Bold" FontSize="15.6" Margin="0 24 0 0"/>
-            <TextBox Width="339" Margin="12 19 12 0" Tag="enter your password" HorizontalAlignment="Center"/>
+            <TextBox Name="passwordtb" Width="339" Margin="12 19 12 0" Tag="enter your password" HorizontalAlignment="Center"/>
             <Button Height="58" Width="320" Margin="0 180 0 0" Content="log in" FontSize="17" Command="{Binding LoginCommand}"/>
             <TextBlock Text="Proudly created by Hesen Abdullazade in 2023." HorizontalAlignment="Center" Margin="20" Foreground="#CBD2DB"/>
         </StackPanel>

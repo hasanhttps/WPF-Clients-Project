@@ -30,11 +30,7 @@ namespace WPF_Clients_Application.Models {
             Company = company;
             PhoneNumber = phonenumber;
             Order = order;
-            Orders = new ObservableCollection<Order>() {
-                new Order("Display Akril (2.5mm) A5", "21.11.21", "30.11.21", 500),
-                new Order("Display Akril (2.5mm) A5", "21.11.21", "30.11.21", 500),
-                new Order("Display Akril (2.5mm) A5", "21.11.21", "30.11.21", 500, true)
-            };
+            Orders = new ObservableCollection<Order>() { };
         }
 
         // Properties
