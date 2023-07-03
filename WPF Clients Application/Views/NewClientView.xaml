@@ -21,7 +21,7 @@
             <Image Grid.Column="0" Source="{StaticResource clientsLogo}" MaxWidth="51" HorizontalAlignment="Left" Margin="10"/>
             <TextBlock Grid.Column="1" FontSize="17" Text="home" HorizontalAlignment="Right" Margin="10" Foreground="#01133D" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown"/>
         </Grid>
-
+        
         <StackPanel Grid.Row="1">
             <TextBlock FontSize="17" Text="Name" Height="20" Margin="12 15 0 0" VerticalAlignment="Top" Foreground="#01133D"/>
             <TextBox Text="{Binding Name, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Tag=" What is the name of the client?" VerticalAlignment="Top" Margin="12 5 12 0"/>

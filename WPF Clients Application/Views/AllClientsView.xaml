@@ -47,8 +47,8 @@
 
                             <StackPanel Grid.Column="1">
                                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top">
-                                    <Border CornerRadius="13" Height="13" Width="13" Background="#3476E4" Margin="0 5 5 0">
-                                        <TextBlock Text="2" Foreground="White" Width="5.52" FontSize="11.52"/>
+                                    <Border CornerRadius="13" Height="13" Width="13" Background="#3476E4" HorizontalAlignment="Center" Margin="0 5 5 0">
+                                        <TextBlock Text="{Binding Orders.Count}" Foreground="White" HorizontalAlignment="Center" FontSize="11.52"/>
                                     </Border>
                                     <fa:ImageAwesome Icon="{Binding Place}" Margin="0 5 5 0" Width="12"/>
                                 </StackPanel>

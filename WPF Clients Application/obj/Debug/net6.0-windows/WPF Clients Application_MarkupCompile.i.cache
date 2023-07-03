@@ -16,5 +16,5 @@ C:\Users\hasan\source\repos\WPF Clients Application\WPF Clients Application\App.
 195-953605026
 ResourceDictionaries\CustomTextBoxesRD.xaml;ResourceDictionaries\FontsRD.xaml;ResourceDictionaries\ImagesRD.xaml;ResourceDictionaries\MainCustomButtonsRD.xaml;Views\AllClientsView.xaml;Views\ClientProfileView.xaml;Views\HomeView.xaml;Views\LoginView.xaml;Views\NewClientView.xaml;Views\NewOrderView.xaml;
 
-False
+True
 
