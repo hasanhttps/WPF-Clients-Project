@@ -26,6 +26,7 @@ namespace WPF_Clients_Application.ViewModels {
         public Client Client { get; set; }
         
         public NewClientViewModel(Client? client = null) {
+
             RegisterCommand = new RealCommand(Register);
             if (client != null) {
                 Name = client.Name;
@@ -46,6 +47,9 @@ namespace WPF_Clients_Application.ViewModels {
             try {
                 if (!isEdit) {
                     Client? checkedClient = new(Name!, Surname!, Place!, Company!, PhoneNumber!, Order!);
+                    checkedClient.Day = Day; 
+                    checkedClient.Month = Month; 
+                    checkedClient.Year = PhoneNumber;
                     AllClients!.Add(checkedClient!);
                 }
                 else {

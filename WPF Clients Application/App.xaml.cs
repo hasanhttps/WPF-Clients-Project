@@ -1,14 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Configuration;
 using System.Data;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows;
+using System.Configuration;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 using WPF_Clients_Application.Models;
-using static WPF_Clients_Application.Models.JsonHandling;
+using System.Collections.ObjectModel;
 using static WPF_Clients_Application.Models.Database;
+using static WPF_Clients_Application.Models.JsonHandling;
 
 namespace WPF_Clients_Application {
     public partial class App : Application {
